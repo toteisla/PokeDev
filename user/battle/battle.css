@@ -1,0 +1,29 @@
+.ui-button-text {
+	display: none !important;
+}
+.ui-dialog-titlebar { 
+	display:none; 
+}
+.ui-dialog-content {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.ui-widget-content {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+	background: rgba(0, 0, 0, 0.6) !important;
+	border: rgba(0, 0, 0, 0) !important;
+}
+.ui-widget-header {
+	background-color: rgba(0, 0, 0, 0) !important;
+	background: rgba(0, 0, 0, 0) !important;
+	border: rgba(0, 0, 0, 0) !important;
+}
+#battle-window {
+	background: rgba(0,0,0,0.6);
+	margin-left: 275px;
+	margin-top: 15px;
+	position: absolute;
+	width: 356px;
+}
+#game-textbox {
+	margin-top: -175px;
+}

@@ -1,0 +1,59 @@
+TypeError: Object #<WebSocketServer> has no method 'send'
+    at WebSocketServer.Server.log (C:\xampp\htdocs\beawesome\server\Battle-Server.js:18:9)
+    at WebSocketServer.EventEmitter.emit (events.js:95:17)
+    at C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocketServer.js:74:14
+    at completeHybiUpgrade2 (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocketServer.js:237:5)
+    at completeHybiUpgrade1 (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocketServer.js:262:13)
+    at WebSocketServer.handleHybiUpgrade (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocketServer.js:290:3)
+    at WebSocketServer.handleUpgrade (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocketServer.js:147:26)
+    at Server.<anonymous> (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocketServer.js:72:12)
+    at Server.EventEmitter.emit (events.js:106:17)
+    at Socket.socket.ondata (http.js:1986:14)
+
+ReferenceError: byWhom is not defined
+    at WebSocket.<anonymous> (C:\xampp\htdocs\beawesome\server\Battle-Server.js:20:15)
+    at WebSocket.EventEmitter.emit (events.js:98:17)
+    at Receiver.self._receiver.ontext (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocket.js:682:10)
+    at Receiver.opcodes.1.finish (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\Receiver.js:391:14)
+    at Receiver.expectHandler (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\Receiver.js:372:33)
+    at Receiver.add (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\Receiver.js:87:24)
+    at Socket.firstHandler (C:\xampp\htdocs\beawesome\server\node_modules\ws\lib\WebSocket.js:663:22)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:745:14)
+    at Socket.EventEmitter.emit (events.js:92:17)
+
+TypeError: Cannot read property '0' of undefined
+    at Query._callback (C:\xampp\htdocs\beawesome\server\Battle-Server.js:37:46)
+    at C:\xampp\htdocs\beawesome\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:68:22
+    at process._tickCallback (node.js:419:13)
+
+TypeError: Cannot read property '0' of undefined
+    at Query._callback (C:\xampp\htdocs\beawesome\server\Battle-Server.js:37:26)
+    at C:\xampp\htdocs\beawesome\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:68:22
+    at process._tickCallback (node.js:419:13)
+
+TypeError: Cannot call method 'push' of undefined
+    at Query._callback (C:\xampp\htdocs\beawesome\server\Battle-Server.js:38:27)
+    at C:\xampp\htdocs\beawesome\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:68:22
+    at process._tickCallback (node.js:419:13)
+
+TypeError: Cannot read property '0' of undefined
+    at Query._callback (C:\xampp\htdocs\beawesome\server\Battle-Server.js:39:47)
+    at C:\xampp\htdocs\beawesome\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:68:22
+    at process._tickCallback (node.js:419:13)
+
+TypeError: Object Bulbasaur has no method 'push'
+    at Query._callback (C:\xampp\htdocs\beawesome\server\Battle-Server.js:44:25)
+    at C:\xampp\htdocs\beawesome\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:68:22
+    at process._tickCallback (node.js:419:13)
+
+TypeError: Cannot call method 'push' of undefined
+    at Query._callback (C:\xampp\htdocs\beawesome\server\Battle-Server.js:38:26)
+    at C:\xampp\htdocs\beawesome\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:68:22
+    at process._tickCallback (node.js:419:13)
+
+TypeError: Object name,level,moves has no method 'moves'
+    at Query._callback (C:\xampp\htdocs\beawesome\server\Battle-Server.js:41:20)
+    at C:\xampp\htdocs\beawesome\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:68:22
+    at process._tickCallback (node.js:419:13)
+
